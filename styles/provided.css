@@ -1,0 +1,166 @@
+
+/* base styles, feel free to edit */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #5d4037;
+    height: 100%;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#ff8a65;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+footer {
+    border-top: 1px solid rgba(0,0,0,.0975);
+    padding: 10px;
+    background-color:inherit;
+    min-height: 60px;
+    text-align: right;
+}
+
+.banner > *, footer > * {
+    margin: 10px 25px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+}
+
+.main-body {
+    background-color:  inherit;
+    width: 60vw;
+    height: 80vh;
+    padding-top : 2%;
+    margin: auto auto auto auto;
+}
+
+.signup-wrapper {
+    width: 40vw;
+    height: 80vh;
+    margin: auto auto auto auto;
+}
+
+.signup-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #fafafa;
+    margin-bottom: 35px;
+}
+
+.signup-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: grey;
+    margin-top: 12px;
+}
+
+.signup-link {
+    color:blue;
+    color:black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.signup-link span:hover {
+    color: green;
+}
+
+.card {
+    border: 10px solid white;
+    background-color: #fafafa;
+    margin: auto auto auto auto;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.thumbnail {
+    width: 25px;
+    height: auto;
+    object-fit: cover;
+}
+
+.thumbnail:hover {
+    width: 27px;
+    cursor: pointer;
+}
+
+.circle-button {
+    border-radius: 50%;
+    padding: 0 0 0 0;
+}
+
+.show-like-button {
+    margin-left: 2%;
+}
+
+.profile-block {
+    background-color: white;
+    border-color: #5d4037;
+    border-radius: 2%;
+    margin-bottom: 2%;
+}
+
+.profile-blank-img {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.card-div {
+    width: 80%;
+    margin: auto;
+}
+
+.card-author {
+    font-size: 1.5em;
+}
+
+.likes-span {
+    padding-left: 1%;
+}
+
+.float-right {
+    float: right;
+}
+
+.add-comment-div {
+    margin-bottom: 2%;
+}
+
+.author-text:hover {
+    cursor: pointer;
+}
+
+/* Add your styles here */
